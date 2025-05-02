@@ -8,3 +8,11 @@ function twoSum(nums: number[], target: number): any {
         } 
     }
 };
+
+//Palindrome - Easy
+function isPalindrome(x: number): boolean {
+    if(x == parseInt(x.toString().split('').reverse().join(''))){
+        return true
+    }
+    return false;
+};
